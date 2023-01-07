@@ -8,20 +8,21 @@
     background-position: center;
     width: 100%;
     height: 750px;
+    padding-left: 90px;
 }
 .banner{
     text-align: right;
 }
 .banner-title{
-    padding: 200px 200px 0;
-    font-weight: 700;
+    padding: 200px 190px 0;
+    font-weight: 900;
     font-size: 60px;
-    margin-left: 500px;
+    margin-left: 550px;
 }
 .banner-description{
     padding:  10px 200px 0;
-    margin-left: 500px;
-    font-size: 16px;
+    margin-left: 700px;
+    font-size: 14px;
     color: #757575;
     font-style:initial;
 }
@@ -36,6 +37,9 @@
     height: 60px;
     font-size: 20px;
     font-style: unset; 
+}
+.banner-btn i{
+    color: aliceblue;
 }
 /* body style */
 .body{
