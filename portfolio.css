@@ -71,7 +71,7 @@ i{
     text-align: center;
     display: flex;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .about-title{
     margin-bottom: 10px;
@@ -96,6 +96,31 @@ section .info-description{
     font-weight: 200;
     color: #757575;
 }
+.top-section {
+    padding: 100px 230px;
+  }
+  .top-section > div {
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+  }
+  .top-section > div > div {
+    background-image: url(./images/gradient1.png);
+    background-repeat: no-repeat;
+    padding: 75px 100px;
+  }
+  .top-section > div > div > h1 {
+    font-size: 38px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .top-section > div > div > a {
+    color: blue;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 30px ;
+    border-radius: 8px;
+  }  
 /* Contact*/
 .footer-section{
     display: flex;
@@ -145,9 +170,12 @@ form input[type=text]{
     font-size: 15px;
     color: whitesmoke;
     padding-bottom: 20px;
-    padding-right: 400px;
+    padding-right: 350px;
 }
 .contact a{
     padding-right: 15px;
     text-decoration: none;
+}
+::placeholder{
+    color: white;
 }
