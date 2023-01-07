@@ -66,8 +66,8 @@ i{
 }
 /*About*/
 .about{
-    margin-left: 250px;
-    margin-right: 200px;
+    margin-left: 230px;
+    margin-right: 220px;
     text-align: center;
     display: flex;
     margin-top: 40px;
@@ -85,6 +85,7 @@ i{
 section .about-info{
     text-align: center;
     margin-left: 60px;
+    margin-right: 17px;
 }
 section .info-title{
     font-size: 20px;   
